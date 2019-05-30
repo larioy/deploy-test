@@ -220,6 +220,7 @@ class Migration(migrations.Migration):
                 ('username', models.CharField(max_length=50)),
                 ('mailbox', models.CharField(max_length=100)),
                 ('when_created', models.CharField(max_length=30)),
+                ('created_by', models.CharField(default=b'', max_length=100)),
             ],
         ),
         migrations.CreateModel(
