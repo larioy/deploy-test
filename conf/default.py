@@ -26,7 +26,7 @@ APP_ID = 'deploy-test'
 # APP_TOKEN = 'bb897a59-914e-46f0-b0de-8bf063f22b0f' # newpass 平台token
 APP_TOKEN = '3d83ddbb-9f27-45b6-9ba1-85798a39c783' # pass ƽ̨token
 # 蓝鲸智云开发者中心的域名，形如：http://paas.bking.com
-BK_PAAS_HOST = 'http://paas.bk.com'
+BK_PAAS_HOST = 'http://paas.bk.com:80'
 # BK_PAAS_HOST = 'http://paas.blueking.com'
 
 # CMDB信息
