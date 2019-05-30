@@ -37,11 +37,11 @@ def check_login_auth_from_server(user_id):
     try:
         http = httplib2.Http()
         body = {'user_id': user_id, 'app_id': APP_ID}
-        logger.error('APP_ID=%s, user_id=%s'.format(APP_ID, user_id))
+        logger.error('APP_ID={0}, user_id={1}'.format(APP_ID, user_id))
         headers = {'Content-type': 'application/json'}
         url = get_uam_check_access_permission_url()
         response, content = http.request(url, 'POST', headers=headers, body=json.dumps(body))
-        logger.error('response=%s, content=%s'.format(response, content))
+        logger.error('response={0}, content={1}'.format(response, content))
         dic = json.loads(content)
         return dic['result'], dic['is_super_user']
     except Exception as e:
