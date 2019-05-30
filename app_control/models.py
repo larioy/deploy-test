@@ -1,11 +1,20 @@
 # -*- coding: utf-8 -*-
+"""
+Tencent is pleased to support the open source community by making 蓝鲸智云(BlueKing) available.
+Copyright (C) 2017 THL A29 Limited, a Tencent company. All rights reserved.
+Licensed under the MIT License (the "License"); you may not use this file except in compliance with the License.
+You may obtain a copy of the License at http://opensource.org/licenses/MIT
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on
+an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and limitations under the License.
+"""
 
 from django.utils import timezone
 from django.db import models
 from common.log import logger
 
 
-class Function_Manager(models.Manager):
+class FunctionManager(models.Manager):
     def func_check(self, func_code):
         """
         @summary: 检查改功能是否开放
@@ -20,7 +29,7 @@ class Function_Manager(models.Manager):
             return (False, 0)
 
 
-class Function_controller(models.Model):
+class FunctionController(models.Model):
     """
     功能开启控制器
     """
@@ -29,7 +38,7 @@ class Function_controller(models.Model):
     enabled = models.BooleanField(u"是否开启该功能", help_text=u"控制功能是否对外开放，若选择，则该功能将对外开放", default=False)
     create_time = models.DateTimeField(u"创建时间", default=timezone.now)
     func_developer = models.TextField(u"功能开发者", help_text=u"多个开发者以分号分隔", null=True, blank=True)
-    objects = Function_Manager()
+    objects = FunctionManager()
 
     def __unicode__(self):
         return self.func_name

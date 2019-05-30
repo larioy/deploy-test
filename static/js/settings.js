@@ -6,7 +6,8 @@ var debug = true; // 是否是调试模式，注意：在上传代码的时候�
 //-----------------------------------------------------------
 
 //以下公用代码区域，使用范围非常广，请勿更改--------------------------------
-document.write(" <script lanague=\"javascript\" src=\""+static_url+"assets/artdialog/jquery.artDialog.js?skin=simple\"> <\/script>");
+document.write(" <link rel=\"stylesheet\" href=\""+static_url+"assets/bkDialog-1.0/css/ui-dialog.css\">");
+document.write(" <script lanague=\"javascript\" src=\""+static_url+"assets/bkDialog-1.0/js/dialog.js\"> <\/script>");
 //csrftoken
 document.write(" <script lanague=\"javascript\" src=\""+static_url+"js/csrftoken.js\"> <\/script>");
 /**

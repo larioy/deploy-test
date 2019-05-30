@@ -1,5 +1,13 @@
 # -*- coding: utf-8 -*-
 """
+Tencent is pleased to support the open source community by making 蓝鲸智云(BlueKing) available.
+Copyright (C) 2017 THL A29 Limited, a Tencent company. All rights reserved.
+Licensed under the MIT License (the "License"); you may not use this file except in compliance with the License.
+You may obtain a copy of the License at http://opensource.org/licenses/MIT
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on
+an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and limitations under the License.
+
 Python 富文本XSS过滤类
 @package XssHtml
 @version 0.1
@@ -16,7 +24,7 @@ Usage:
     parser = XssHtml()
     parser.feed('<html code>')
     parser.close()
-    html = parser.getHtml()
+    html = parser.get_html()
     print html
 Requirements
 Python 2.6+ or 3.2+
@@ -25,6 +33,7 @@ Cannot defense xss in browser which is belowed IE7
 """
 import re
 from HTMLParser import HTMLParser
+
 
 class XssHtml(HTMLParser):
     allow_tags = ['a', 'img', 'br', 'strong', 'b', 'code', 'pre',
@@ -35,7 +44,7 @@ class XssHtml(HTMLParser):
     common_attrs = ["id", "style", "class", "name"]
     nonend_tags = ["img", "hr", "br", "embed"]
     tags_own_attrs = {
-        "img": ["src", "width", "height", "alt", "align"], 
+        "img": ["src", "width", "height", "alt", "align"],
         "a": ["href", "target", "rel", "title"],
         "embed": ["src", "width", "height", "type", "allowfullscreen", "loop", "play", "wmode", "menu"],
         "table": ["border", "cellpadding", "cellspacing"],
@@ -48,7 +57,7 @@ class XssHtml(HTMLParser):
         self.start = []
         self.data = []
 
-    def getHtml(self):
+    def get_html(self):
         """
         Get the safe html code
         """
@@ -166,12 +175,12 @@ class XssHtml(HTMLParser):
         attrs = self.__get_style(attrs)
         return attrs
 
-    def __set_attr_default(self, attrs, name, default = ''):
+    def __set_attr_default(self, attrs, name, default=''):
         if name not in attrs:
             attrs[name] = default
         return attrs
 
-    def __limit_attr(self, attrs, limit = {}):
+    def __limit_attr(self, attrs, limit={}):
         for (key, value) in limit.items():
             if key in attrs and attrs[key] not in value:
                 del attrs[key]
@@ -192,4 +201,4 @@ if "__main__" == __name__:
         <a href="https://www.baidu.com" target="self">MM</a></p>
         <embed src='javascript:alert(/hehe/)' allowscriptaccess=always />""")
     parser.close()
-    print(parser.getHtml())
+    print(parser.get_html())

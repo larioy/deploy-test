@@ -48,8 +48,8 @@ def get_client_by_user(user, **kwargs):
         else:
             username = user
     except:
-        logger.exception(u'根据user（%s）获取用户失败' % user)
+        logger.exception('Failed to get user according to user (%s)' % user)
 
-    common_args = {'username': username}
+    common_args = {'bk_username': username}
     common_args.update(kwargs)
     return ComponentClient(conf.APP_CODE, conf.SECRET_KEY, common_args=common_args)

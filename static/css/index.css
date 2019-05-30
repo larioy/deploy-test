@@ -7,7 +7,7 @@ html{
 body {
     overflow-x: auto;
     min-width: 1200px;
-    /*min-height: 620px;*/
+    min-height: 620px;
     font-family: "Microsoft YaHei","微软雅黑","\xe8\x93\x9d\xe9\xb2\xb8\xe6\x99\xba\xe8\x90\xa5";
 }
 a:hover {

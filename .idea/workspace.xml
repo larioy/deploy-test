@@ -2,7 +2,468 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03deaad1-6463-4a01-b6cd-b4eb30ab7d7c" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/uam/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/uam/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deploy-test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/accounts.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/accounts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/backends.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/backends.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/decorators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/http.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/http.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_control/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_control/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_control/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_control/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_control/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_control/decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_control/decorators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_control/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_control/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_control/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_control/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_control/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_control/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_control/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_control/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_control/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_control/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_control/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_control/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_control/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_control/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/blueking/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/apis/bk_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/blueking/component/apis/bk_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/apis/cc.py" beforeDir="false" afterPath="$PROJECT_DIR$/blueking/component/apis/cc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/apis/cmsi.py" beforeDir="false" afterPath="$PROJECT_DIR$/blueking/component/apis/cmsi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/apis/job.py" beforeDir="false" afterPath="$PROJECT_DIR$/blueking/component/apis/job.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/blueking/component/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/blueking/component/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/blueking/component/collections.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/blueking/component/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/blueking/component/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/shortcuts.py" beforeDir="false" afterPath="$PROJECT_DIR$/blueking/component/shortcuts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueking/component/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/blueking/component/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/celerybeat.pid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/context_processors.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/context_processors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/decorators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/mymako.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/mymako.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pxfilter.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/pxfilter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/default.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf/default.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/settings_development.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf/settings_development.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/settings_production.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf/settings_production.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/settings_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf/settings_testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/error_pages/README" beforeDir="false" afterPath="$PROJECT_DIR$/error_pages/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/error_pages/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/error_pages/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/error_pages/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/error_pages/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/error_pages/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/error_pages/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/error_pages/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/error_pages/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/error_pages/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/error_pages/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/error_pages/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/error_pages/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/esb/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/esb/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/esb/new_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixtures/._initial_check_item_data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixtures/._initial_check_menu_data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixtures/._initial_config_item_data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixtures/._initial_module_item_value_data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixtures/initial_check_item_data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixtures/initial_check_menu_data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixtures/initial_config_item_data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixtures/initial_module_item_value_data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixtures/initial_settings_data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_application/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_application/._check_views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_application/._views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_application/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/home_application/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_application/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/home_application/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_application/celery_tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/home_application/celery_tasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_application/check_views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_application/custom_item_view.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_application/enums.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_application/helper_win.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_application/helper_win_e.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_application/home_view.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_application/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_application/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_application/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home_application/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_application/module_view.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_application/report_detail_views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_application/settings_views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_application/sys_view.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_application/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/home_application/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_application/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home_application/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_application/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home_application/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Images/created_fail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Images/created_success.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Images/line_conn.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Images/qq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Images/s_app.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Images/server_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Images/title_hr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Images/zTreeStandard.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Images/zTreeStandard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/changelists.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/changelists.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/forms.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/forms.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/ie.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/ie.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/widgets.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/widgets.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/LICENSE-JQUERY.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/LICENSE-JQUERY.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/SelectBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/SelectBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/actions.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/actions.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/calendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/collapse.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/collapse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/collapse.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/collapse.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/inlines.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/inlines.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/inlines.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/inlines.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/jquery.init.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/jquery.init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/related-widget-wrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/related-widget-wrapper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/timeparse.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/timeparse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/urlify.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/urlify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/iframeTools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/jquery.artDialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/jquery.artDialog.source.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/aero/aero_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/aero/aero_s2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/aero/ie6/aui_close.hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/aero/ie6/aui_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/aero/ie6/aui_e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/aero/ie6/aui_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/aero/ie6/aui_ne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/aero/ie6/aui_nw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/aero/ie6/aui_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/aero/ie6/aui_se.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/aero/ie6/aui_sw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/aero/ie6/aui_title_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/aero/ie6/aui_w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/black.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/black/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/black/bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/black/bg_css3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/black/bg_css3_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/black/ie6/close.hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/black/ie6/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/black/ie6/e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/black/ie6/n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/black/ie6/ne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/black/ie6/nw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/black/ie6/s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/black/ie6/se.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/black/ie6/sw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/black/ie6/w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/blue/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/blue/bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/blue/bg_css3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/blue/bg_css3_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/blue/ie6/close.hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/blue/ie6/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/blue/ie6/e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/blue/ie6/n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/blue/ie6/ne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/blue/ie6/nw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/blue/ie6/s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/blue/ie6/se.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/blue/ie6/sw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/blue/ie6/w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/chrome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/chrome/border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/chrome/chrome_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/green/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/green/bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/green/bg_css3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/green/bg_css3_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/green/color_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/green/ie6/close.hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/green/ie6/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/green/ie6/e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/green/ie6/n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/green/ie6/ne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/green/ie6/nw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/green/ie6/s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/green/ie6/se.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/green/ie6/sw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/green/ie6/w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/icons/error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/icons/face-sad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/icons/face-smile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/icons/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/icons/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/icons/succeed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/icons/warning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/idialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/idialog/idialog_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/idialog/idialog_s2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/idialog/ie6/aui_close.hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/idialog/ie6/aui_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/idialog/ie6/aui_e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/idialog/ie6/aui_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/idialog/ie6/aui_ne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/idialog/ie6/aui_nw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/idialog/ie6/aui_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/idialog/ie6/aui_se.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/idialog/ie6/aui_sw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/idialog/ie6/aui_w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/opera.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/opera/ie6/aui_close.hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/opera/ie6/aui_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/opera/ie6/aui_e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/opera/ie6/aui_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/opera/ie6/aui_ne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/opera/ie6/aui_nw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/opera/ie6/aui_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/opera/ie6/aui_se.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/opera/ie6/aui_sw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/opera/ie6/aui_w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/opera/s1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/opera/s2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/simple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/artdialog/skins/twitter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/bootstrap-3.3.4/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/bootstrap-3.3.4/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/bootstrap-3.3.4/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/bootstrap-3.3.4/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/bootstrap-3.3.4/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/bootstrap-3.3.4/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/bootstrap-3.3.4/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/bootstrap-3.3.4/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/bootstrap-3.3.4/css/bootstrap_noresponsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/bootstrap-3.3.4/css/bootstrap_noresponsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/bootstrap-3.3.4/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/bootstrap-3.3.4/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/bootstrap-3.3.4/js/bootstrap-treeview.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/bootstrap-3.3.4/js/bootstrap-treeview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/bootstrap-3.3.4/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/bootstrap-3.3.4/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/bootstrap-3.3.4/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/bootstrap-3.3.4/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/bootstrap-3.3.4/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/bootstrap-3.3.4/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/Directives.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/Services.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/Utilities_Services.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/Config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/Confirm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/Error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/Message.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/checkManagement/checkAddCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/checkManagement/checkItemCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/checkManagement/checkItemModifyCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/checkManagement/checkModifyCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/checkManagement/checkReportCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/checkManagement/checkSearchCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/checkManagement/checkTotalReportCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/checkManagement/customItemAddCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/checkManagement/customItemCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/checkManagement/customItemModifyCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/checkManagement/selectServersCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/configManagement/newConfigCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/moduleManagement/moduleAddCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/moduleManagement/moduleListCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/moduleManagement/moduleModifyCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/reportDetailManagement/reportInfoDetailCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/reportDetailManagement/taskReportDetailCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/settingsManagement/applicationCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/settingsManagement/setConfigCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/site.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/sysManagement/addCustomCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/sysManagement/customManagementCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/sysManagement/mailAddCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/sysManagement/mailManagementCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/sysManagement/mailModifyCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/controllers/sysManagement/operationLogCtrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/report_init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/ConfirmModal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/ErrorModal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/Message.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/checkManagement/checkAdd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/checkManagement/checkItem.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/checkManagement/checkItemModify.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/checkManagement/checkModify.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/checkManagement/checkReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/checkManagement/checkSearch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/checkManagement/checkTotalReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/checkManagement/customItem.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/checkManagement/customItemAdd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/checkManagement/selectServers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/configManagement/newConfig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/moduleManagement/moduleAdd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/moduleManagement/moduleCheck.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/moduleManagement/moduleList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/moduleManagement/moduleModify.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/reportDetailManagement/reportInfoDetail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/reportDetailManagement/taskReportDetail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/settingsManagement/application.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/settingsManagement/setConfig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/sub_level.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/sysManagement/addCustom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/sysManagement/customManagement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/sysManagement/mailManagement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/sysManagement/mailManagementOperation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/client/views/sysManagement/operationLog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/Metro/loading-image.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/base-page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bk.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bk.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/check-report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/checkBo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/cw-left-menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/directive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/feather.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/jquery-ui-1.10.4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/kendo-datetime.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/kendo-default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/kendo.common.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/kendo.metro.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/ng-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/panel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/perfect-scrollbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/roboto.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/select2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/toastr.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/ui-dialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/urban.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/urban.skins.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/zTreeStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/feather-webfont/feather-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/feather-webfont/feather-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/feather-webfont/feather-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/feather-webfont/feather-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/panel/panel-icon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/panel/panel-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/panel/panel-icon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/panel/panel-icon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/panel/panel.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/panel/panel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/panel/panel.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/panel/panel.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/panel/selection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/roboto/roboto-bold-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/roboto/roboto-bolditalic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/roboto/roboto-italic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/roboto/roboto-medium-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/roboto/roboto-mediumitalic-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/roboto/roboto-regular-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/animated-overlay.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/app_logo_t.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/ico-search-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/line_conn.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/report_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/report_bg1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/report_bg2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/report_bg3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/report_bg4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/report_bg5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/report_bg6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/select2-spinner.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/select2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/select2x2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/server_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/servers_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/top_bj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/ui-bg_diagonals-thick_90_eeeeee_40x40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/ui-bg_flat_15_cd0a0a_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/ui-bg_glass_100_e4f1fb_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/ui-bg_glass_50_3baae3_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/ui-bg_glass_80_d7ebf9_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/ui-bg_highlight-hard_100_f2f5f7_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/ui-bg_highlight-hard_70_000000_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/ui-bg_highlight-soft_100_deedf7_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/ui-bg_highlight-soft_25_ffef8f_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/ui-icons_2694e8_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/ui-icons_2e83ff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/ui-icons_3d80b3_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/ui-icons_72a7cf_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/ui-icons_ffffff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/angular_base/angular-resource.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/angular_base/angular-resource.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/angular_base/angular-route.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/angular_base/angular-ui-router.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/angular_base/angular.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/angular_base/angular.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/angular_base/leftmenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/angular_base/ng-grid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/angular_base/ui-bootstrap-tpls-0.12.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/csrftoken.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/csrftoken.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/dialog-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/highcharts/exporting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/highcharts/highcharts-3d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/highcharts/highcharts-more.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/highcharts/highcharts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/highcharts/solid-gauge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery-1.10.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jquery-1.10.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery-ui-1.10.4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery.json-2.3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jquery.json-2.3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery.ztree.all-3.5.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/kendo.all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/kendo_grid_option.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/select2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/sys_management/add_business.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/toastr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/ztree_option.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/401.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/401.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/403.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/403.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/func_check_failed.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/func_check_failed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/base_site.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/base_site.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home_application/add_business.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home_application/js_factory.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home_application/report_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uam/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uam/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uam/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uam/decorators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uam/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/wsgi.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,50 +479,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conf/default.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="51" column="35" lean-forward="true" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/account/accounts.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+            <state relative-caret-position="266">
+              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
               <folding>
-                <element signature="e#51#62#0" expanded="true" />
+                <element signature="e#1002#1011#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uam/middlewares.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/uam/client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-86">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#25#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uam/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -69,8 +491,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conf/settings_production.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+            <state relative-caret-position="399">
+              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -78,17 +500,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conf/settings_testing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="399">
+              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conf/settings_development.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="399">
+              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -106,12 +528,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/conf/default.py" />
-        <option value="$PROJECT_DIR$/conf/settings_production.py" />
-        <option value="$PROJECT_DIR$/conf/settings_testing.py" />
-        <option value="$PROJECT_DIR$/conf/settings_development.py" />
         <option value="$PROJECT_DIR$/uam/config.py" />
         <option value="$PROJECT_DIR$/uam/client.py" />
+        <option value="$PROJECT_DIR$/conf/default.py" />
+        <option value="$PROJECT_DIR$/conf/settings_testing.py" />
+        <option value="$PROJECT_DIR$/conf/settings_production.py" />
+        <option value="$PROJECT_DIR$/conf/settings_development.py" />
       </list>
     </option>
   </component>
@@ -147,11 +569,6 @@
             <path>
               <item name="deploy-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="deploy-test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deploy-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deploy-test" type="462c0819:PsiDirectoryNode" />
-              <item name="uam" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,12 +631,12 @@
       <option name="presentableId" value="Default" />
       <updated>1559193005287</updated>
       <workItem from="1559193011343" duration="1764000" />
-      <workItem from="1559194819325" duration="7552000" />
+      <workItem from="1559194819325" duration="8158000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9316000" />
+    <option name="totallyTimeSpent" value="9922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1284" height="728" extended-state="0" />
@@ -252,17 +669,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/uam/client.py</url>
-          <line>37</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app_control/migrations/0002_initial_app_control.py" />
@@ -301,44 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/account/accounts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-          <folding>
-            <element signature="e#51#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/settings_production.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/default.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="51" column="35" lean-forward="true" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/settings_development.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/settings_testing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -367,6 +735,44 @@
           <folding>
             <element signature="e#25#54#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/accounts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/default.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+          <folding>
+            <element signature="e#1002#1011#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/settings_production.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/settings_testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/settings_development.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
         </state>
       </provider>
     </entry>

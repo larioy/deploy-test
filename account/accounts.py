@@ -1,10 +1,15 @@
 # -*- coding: utf-8 -*-
 """
+Tencent is pleased to support the open source community by making 蓝鲸智云(BlueKing) available.
+Copyright (C) 2017 THL A29 Limited, a Tencent company. All rights reserved.
+Licensed under the MIT License (the "License"); you may not use this file except in compliance with the License.
+You may obtain a copy of the License at http://opensource.org/licenses/MIT
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on
+an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and limitations under the License.
+
 账号体系相关的基类Account.
 """
-
-import time
-
 from django.conf import settings
 from django.contrib.auth import logout as auth_logout, get_user_model
 from django.contrib.auth.views import redirect_to_login
@@ -34,11 +39,11 @@ class Account(AccountSingleton):
     账号体系相关的基类Account.
     提供通用的账号功能
     """
-
     # 平台验证用户登录态接口
-    BK_LOGIN_VERIFY_URL = "%s/login/accounts/is_login/" % settings.BK_PAAS_HOST
+    BK_LOGIN_VERIFY_URL = "%s/login/accounts/is_login/" % getattr(settings, 'BK_PAAS_INNER_HOST', settings.BK_PAAS_HOST)
     # 平台获取用户信息接口
-    BK_GET_USER_INFO_URL = "%s/login/accounts/get_user/" % settings.BK_PAAS_HOST
+    BK_GET_USER_INFO_URL = "%s/login/accounts/get_user/" % getattr(settings, 'BK_PAAS_INNER_HOST',
+                                                                   settings.BK_PAAS_HOST)
 
     def is_bk_token_valid(self, request):
         """验证用户登录态."""
@@ -99,9 +104,9 @@ class Account(AccountSingleton):
             return False, {}
         return True, resp.get('data', {})
 
-    def build_callback_url(self, request, jumpUrl):
+    def build_callback_url(self, request, jump_url):
         callback = request.build_absolute_uri()
-        login_scheme, login_netloc = urlparse(jumpUrl)[:2]
+        login_scheme, login_netloc = urlparse(jump_url)[:2]
         current_scheme, current_netloc = urlparse(callback)[:2]
         if ((not login_scheme or login_scheme == current_scheme) and
                 (not login_netloc or login_netloc == current_netloc)):
