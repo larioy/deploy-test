@@ -30,7 +30,7 @@ BK_PAAS_HOST = 'http://paas.bk.com'
 # BK_PAAS_HOST = 'http://paas.blueking.com'
 
 # CMDB信息
-CMDB_PATH = "http://192.168.3.203:33031"
+CMDB_PATH = "http://192.168.30.203:33031"
 CMDB_VERSION = "v3"
 BK_SUPPLIER_ACCOUNT = 0
 
