@@ -1,0 +1,15 @@
+<div class="content-page" style="padding:5px;">
+    <fieldset class="fieldsetName">
+        <legend style="">查询条件</legend>
+        <div class="container-fluid">
+            <div style="float:left;">
+                <label style="float:left;margin-top: 5px;">模板名：</label>
+                <input type="text" ng-model="args.name" style="width:150px;float:left;" class="form-control"/>
+            </div>
+            <div style="float:left;margin-left:15px;">
+                <button ng-click="searchList()" class="btn btn-sm btn-info">查询</button>
+            </div>
+        </div>
+    </fieldset>
+    <div cw-adaptbody="100" ng-grid="gridOption" style="width:100%;overflow-y: auto;overflow-x: hidden"></div>
+</div>

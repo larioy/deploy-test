@@ -1,0 +1,71 @@
+<div class="container-fluid" style="padding: 5px;padding-bottom: 10px;;height:100%;overflow-y: hidden;overflow-x: hidden">
+    <div class="king-panel-container" style="overflow-y: auto;overflow-x: hidden">
+        <div class="row-home" style="overflow-y: auto;overflow-x: hidden">
+            <div class="col-md-3">
+                <div class="king-panel-item clearfix king-panel-success">
+                    <div class="king-panel-left king-padding">
+                        <i class="fa fa-align-left f30"></i>
+                    </div>
+                    <div class="king-panel-right king-padding">
+                        <span class="king-counter-number f24" ng-bind="countObj.app_count"></span>
+                        <div class="king-counter-label mt5">巡检业务数</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="king-panel-item clearfix king-panel-info">
+                    <div class="king-panel-left king-padding">
+                        <i class="fa fa-television f30"></i>
+                    </div>
+                    <div class="king-panel-right king-padding">
+                        <span class="king-counter-number f24" ng-bind="countObj.server_count"></span>
+                        <div class="king-counter-label mt5">巡检主机数</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="king-panel-item clearfix king-panel-primary">
+                    <div class="king-panel-left king-padding">
+                        <i class="fa fa-database f30"></i>
+                    </div>
+                    <div class="king-panel-right king-padding">
+                        <span class="king-counter-number f24" ng-bind="countObj.report_count"></span>
+                        <div class="king-counter-label mt5">巡检次数</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="king-panel-item clearfix king-panel-warning">
+                    <div class="king-panel-left king-padding">
+                        <i class="fa fa-exclamation-triangle  f30"></i>
+                    </div>
+                    <div class="king-panel-right king-padding">
+                        <span class="king-counter-number f24" ng-bind="countObj.error_server"></span>
+                        <div class="king-counter-label mt5">巡检问题主机数</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row-home charts" style="overflow-y: auto;overflow-x: hidden;padding-bottom: 20px">
+        <div class="col-md-6" >
+            <div style="height: 430px;overflow-y: auto;background-color: #fff;padding:15px 30px;">
+                <p class="magic-desc" style="margin-left: -9px;">
+                    <span class="strong">巡检动态</span>
+                    <a ui-sref="checkReport" class="news-more">查看更多</a>
+                </p>
+                <ul class="king-timeline-simple" style="">
+                    <li class="info" ng-repeat="i in reportList">
+                        <span class="timeline-simple-date">{{ i.text }}</span>
+                        <a class="active" ui-sref="taskReportDetail({id:i.id})" >查看详情</a>
+                        <!--<span style="box-shadow:none;opacity:0.65"  ng-if="i.is_deleted">查看详情</span>-->
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6" style="padding-top:10px">
+            <div highcharts="taskReports" style="width:100%;height: 410px;background-color: #fff"></div>
+        </div>
+    </div>
+</div>
