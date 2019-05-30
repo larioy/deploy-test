@@ -41,7 +41,7 @@ def check_login_auth_from_server(user_id):
         headers = {'Content-type': 'application/json'}
         url = get_uam_check_access_permission_url()
         response, content = http.request(url, 'POST', headers=headers, body=json.dumps(body))
-        logger.error('response={0}, content={1}'.format(response, content))
+        logger.error('response={0}, content={1}, url={2}'.format(response, content, url))
         dic = json.loads(content)
         return dic['result'], dic['is_super_user']
     except Exception as e:
